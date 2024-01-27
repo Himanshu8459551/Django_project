@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'style.css' %}"></head>   
+
+{% block body %}
+    <h1>Welcome To Play page</h1>
+    <img src="{% static 'football.jpeg' %}">
+    <img src="{% static 'football2.jpeg' %}">
+    <img src="{% static 'nature.jpeg' %}">
+{% endblock %}
